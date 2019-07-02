@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d4b1702-9282-456a-a8ec-4e51514d0e79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qrscan/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="18">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -185,13 +182,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12792000" />
+    <option name="totallyTimeSpent" value="14026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -204,7 +200,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22366522" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.84415585" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -361,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="18">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
