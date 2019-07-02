@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d4b1702-9282-456a-a8ec-4e51514d0e79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/qrscan/src/app/pages/tabs/tabs.router.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/app/pages/tabs/tabs.router.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qrscan/src/app/services/data-local.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/app/services/data-local.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrscan/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qrscan/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +21,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qrscan/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -28,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="294">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -54,9 +74,11 @@
         <option value="$PROJECT_DIR$/qrscan/src/app/pages/tab2/tab2.page.html" />
         <option value="$PROJECT_DIR$/qrscan/src/app/pages/tab1/tab1.page.ts" />
         <option value="$PROJECT_DIR$/qrscan/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.html" />
         <option value="$PROJECT_DIR$/qrscan/src/app/pages/tabs/tabs.router.module.ts" />
         <option value="$PROJECT_DIR$/qrscan/src/app/services/data-local.service.ts" />
+        <option value="$PROJECT_DIR$/qrscan/src/index.html" />
+        <option value="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.html" />
+        <option value="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.scss" />
         <option value="$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts" />
       </list>
     </option>
@@ -163,7 +185,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11871000" />
+    <option name="totallyTimeSpent" value="12792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -316,17 +338,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qrscan/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qrscan/src/app/pages/maps/maps.page.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="294">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
