@@ -14,4 +14,8 @@ export class Tab2Page {
     console.log('Enviando correo...');
   }
 
+  abrirRegistro(registro){
+    this.datalocalService.abrirRegistro(registro);
+  }
+
 }

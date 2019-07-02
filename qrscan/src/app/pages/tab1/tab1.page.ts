@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {BarcodeScanner} from "@ionic-native/barcode-scanner/ngx";
 import {DataLocalService} from "../../services/data-local.service";
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 
 @Component({
   selector: 'app-tab1',
@@ -14,7 +15,7 @@ export class Tab1Page {
     allowSlideNext: false
 }
 
-  constructor(private barcodeScanner: BarcodeScanner, private datalocalService: DataLocalService) {}
+  constructor(private barcodeScanner: BarcodeScanner, private datalocalService: DataLocalService, private iab: InAppBrowser) {}
 
   scan() {
     this.barcodeScanner.scan().then(barcodeData => {
@@ -24,7 +25,8 @@ export class Tab1Page {
       }
     }).catch(err => {
       console.log('Error', err);
-      this.datalocalService.saveRegister('QRcode', 'http://google.com');
+      //
+      this.datalocalService.saveRegister('QRcode', 'geo:40.73151796986687,-74.06087294062502');
     });
   }
 

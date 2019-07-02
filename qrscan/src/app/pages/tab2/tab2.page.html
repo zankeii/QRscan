@@ -14,7 +14,7 @@
 <ion-content>
 
   <ion-list>
-    <ion-item *ngFor="let registro of datalocalService.saved" detail="">
+    <ion-item *ngFor="let registro of datalocalService.saved" detail="" (click)="abrirRegistro(registro)">
       <ion-icon slot="start" [name]="registro.icon"></ion-icon>
       <ion-label>
         <h2>{{registro.text}}</h2>
