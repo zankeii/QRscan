@@ -1,5 +1,5 @@
 <ion-header no-border>
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
       Record
     </ion-title>
@@ -11,16 +11,22 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="dark">
 
   <ion-list>
-    <ion-item *ngFor="let registro of datalocalService.saved" detail="" (click)="abrirRegistro(registro)">
-      <ion-icon slot="start" [name]="registro.icon"></ion-icon>
-      <ion-label>
-        <h2>{{registro.text}}</h2>
-        <p>{{registro.created | date: 'medium'}}</p>
-      </ion-label>
-    </ion-item>
+    <!--<ion-item-sliding >-->
+      <ion-item *ngFor="let registro of datalocalService.saved" detail="" (click)="abrirRegistro(registro)"
+                color="dark">
+        <ion-icon slot="start" [name]="registro.icon"></ion-icon>
+        <ion-label>
+          <h2>{{registro.text}}</h2>
+          <p>{{registro.created | date: 'medium'}}</p>
+        </ion-label>
+      </ion-item>
+      <!--<ion-item-options side="end">
+        <ion-item-option (click)="delete(registro)">Delete</ion-item-option>
+      </ion-item-options>-->
+    <!--</ion-item-sliding>-->
   </ion-list>
 
 </ion-content>
