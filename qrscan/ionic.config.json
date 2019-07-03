@@ -1,7 +1,8 @@
 {
   "name": "qrscan",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "capacitor": {}
   },
   "type": "angular"
 }
